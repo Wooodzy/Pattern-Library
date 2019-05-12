@@ -1,0 +1,182 @@
+<DOCTYPE HTML!>
+<html lang="en">
+    <head>
+        <title>TPPL</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rufina" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+          <div id="pagewrap">
+
+    <header id="main">
+      <h1>Navigation</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="buttons.html">Buttons</a></li>
+        <li><a href="jumbotron.html">Jumbotron</a></li>
+        <li><a href="#">Header</a></li>
+          <li><a href="#">Footer</a></li>
+        <li><a href="#">Grid Layout</a></li>
+      </ul>
+    </nav>
+<section class="mid-section">
+<h3>Responsive Navigation Menu</h3>
+<p class ="des">Fully responsive navigation bar, with hover highlight and active styling.</p><br>
+<div id='navbar'>
+    <ul>
+    <li><a href='#'><span>Home</span></a></li>
+    <li><a href='#'><span>Link 1</span></a></li>
+    <li><a href='#'><span>Link 2</span></a></li>
+    <li class='last'><a href='#'><span>Link 3</span></a></li>
+   </ul>
+</div>
+</section>
+<section class="left-section">
+<h3>Navigation Bar Structure</h3>
+<p class="des">The navigation is normally placed in the <span class ="tag">&lt;header&gt;</span> as common practice but there is no rule for this but generally
+depends on where you want the navigation to be on the site. Before HTML 5 there would be no <span class ="tag">&lt;nav&gt;</span> tag.</p>
+ <code class="code-block">
+<span class ="tag">&lt;div</span>
+<span class = "attrib">id=</span>
+<span class = "value">'navbar'</span>
+<span class ="tag">&gt;</span><br>
+<span class ="tag">&lt;ul&gt;</span><br>
+<span class ="tag">&lt;li&gt;</span>
+<span class ="tag">&lt;a</span>
+            <span class = "attrib">href=</span>
+            <span class = "value">'#'</span>
+            <span class ="tag">&lt;span&gt;</span>
+            Home
+            <span class ="tag">&lt;/span&gt;</span>
+            <span class ="tag">&lt;/a&gt;</span>
+            <span class ="tag">&lt;/li&gt;</span><br>
+            <span class ="tag">&lt;li&gt;</span>
+            <span class ="tag">&lt;a</span>
+            <span class = "attrib">href=</span>
+            <span class = "value">'#'</span>
+            <span class ="tag">&lt;span&gt;</span>
+            LINK 1
+            <span class ="tag">&lt;/span&gt;</span>
+            <span class ="tag">&lt;/a&gt;</span>
+            <span class ="tag">&lt;/li&gt;</span><br>
+            <span class ="tag">&lt;li&gt;</span>
+            <span class ="tag">&lt;a</span>
+            <span class = "attrib">href=</span>
+            <span class = "value">'#'</span>
+            <span class ="tag">&lt;span&gt;</span>
+            LINK 2
+            <span class ="tag">&lt;/span&gt;</span>
+            <span class ="tag">&lt;/a&gt;</span>
+            <span class ="tag">&lt;/li&gt;</span><br>
+            <span class ="tag">&lt;li&gt;</span>
+            <span class ="tag">&lt;a</span>
+            <span class = "attrib">href=</span>
+            <span class = "value">'#'</span>
+            <span class ="tag">&lt;span&gt;</span>
+            LINK 3
+            <span class ="tag">&lt;/span&gt;</span>
+            <span class ="tag">&lt;/a&gt;</span>
+          <span class ="tag">&lt;/li&gt;</span><br>
+           <span class ="tag">&lt;/ul&gt;</span><br>
+        <span class ="tag">&lt;/nav&gt;</span>
+            </code>
+
+              </section>
+<section class="right-section">
+<h3>Mobile Nav</h3>
+<p class="des">This simple mobile nagvigation drop down menu utilizes simple Javascript 
+and CSS to create a minimal styled menu with a burger menu.</p>
+    <div class="container">
+        <div id="top-bar">
+            <img id="menu-button" src="http://mattdesimini.com/images/howtoweb/menu.png" width="35px">       
+        </div>
+            <ul id="mobile-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul> 
+        </div>
+
+ <code class="code-block">
+<span class ="tag">&lt;div</span>
+<span class = "attrib">class=</span>
+<span class = "value">'container'</span>
+<span class ="tag">&gt;</span><br>
+<span class ="tag">&lt;div</span>
+<span class = "attrib">id=</span>
+<span class = "value">'top-bar'</span>
+<span class ="tag">&gt;</span><br>
+<span class ="tag">&lt;ul</span>
+<span class = "attrib">id=</span>
+<span class = "value">'mobile-nav'</span>
+<span class ="tag">&gt;</span><br>
+<span class ="tag">&lt;li&gt;</span>
+<span class ="tag">&lt;a</span>
+            <span class = "attrib">href=</span>
+            <span class = "value">'#'</span>
+            <span class ="tag">&lt;span&gt;</span>
+            Home
+            <span class ="tag">&lt;/span&gt;</span>
+            <span class ="tag">&lt;/a&gt;</span>
+            <span class ="tag">&lt;/li&gt;</span><br>
+            <span class ="tag">&lt;li&gt;</span>
+            <span class ="tag">&lt;a</span>
+            <span class = "attrib">href=</span>
+            <span class = "value">'#'</span>
+            <span class ="tag">&lt;span&gt;</span>
+            LINK
+            <span class ="tag">&lt;/span&gt;</span>
+            <span class ="tag">&lt;/a&gt;</span>
+            <span class ="tag">&lt;/li&gt;</span><br>
+            <span class ="tag">&lt;li&gt;</span>
+            <span class ="tag">&lt;a</span>
+            <span class = "attrib">href=</span>
+            <span class = "value">'#'</span>
+            <span class ="tag">&lt;span&gt;</span>
+            LINK
+            <span class ="tag">&lt;/span&gt;</span>
+            <span class ="tag">&lt;/a&gt;</span>
+            <span class ="tag">&lt;/li&gt;</span><br>
+            <span class ="tag">&lt;li&gt;</span>
+            <span class ="tag">&lt;a</span>
+            <span class = "attrib">href=</span>
+            <span class = "value">'#'</span>
+            <span class ="tag">&lt;span&gt;</span>
+            LINK
+            <span class ="tag">&lt;/span&gt;</span>
+            <span class ="tag">&lt;/a&gt;</span>
+          <span class ="tag">&lt;/li&gt;</span><br>
+            <span class ="tag">&lt;/ul&gt;</span><br>
+            <span class ="tag">&lt;/div&gt;</span>
+            </code>
+              </section>
+     </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script>
+
+$( "li" ).click(function() {
+  $(this).addClass( "active" );
+  $(this).siblings().removeClass("active");
+});
+
+$( "li" ).first().addClass( "active" );
+
+    $(function() {
+        $("#menu-button").click(function(){
+            $("#mobile-nav").toggle( 'display' );          
+        });
+    });
+
+</script>
+        
+    </body>
+</html>
+</DOCTYPE>

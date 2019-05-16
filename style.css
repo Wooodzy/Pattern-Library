@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
     padding: 0;
@@ -60,7 +60,6 @@ body {
 nav ul{
   list-style-type: none;
   text-align: center;
-padding:1%;
 }
 
 nav ul li{
@@ -117,18 +116,19 @@ nav ul li a:hover, nav ul li a:active{
   float: center;
   width: auto; 
   height: auto;
-  padding: 20px;
+  padding: 10px;
   line-height: 1.8;
   text-align: center;
 }
 
 .mid-section h3{
-  text-align: center;
+  text-align:center;
   padding: 15px;
 }
 
 .des{
-text-align: center;}
+text-align: center;
+margin:20px;}
 
 
 @media screen and (max-width: 900px){
@@ -166,10 +166,10 @@ text-align: center;}
 
 .code-block{
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
     line-height: 25px;
-    max-width: 800px;
+    max-width: 850px;
     text-align: center;
 }
 
@@ -256,7 +256,7 @@ cursor: pointer;
                 color:white;
                 }
 
-.btn1.hover{
+.btn.shadow{
 background-color:transparent;
 border: none;
 color:black;
@@ -271,29 +271,29 @@ cursor: pointer;
   transition-duration: 0.4s;
 }
 
-.btn1:hover {
+.btn.shadow:hover {
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 5px 5px 0 rgba(0,0,0,0.19);
   }
 
-.btn1.blue.hover{
+.btn.blue.shadow{
     background-color:#70D6FF;
     border-color: none;
     color:black;
     }
 
-.btn1.pink.hover{
+.btn.pink.shadow{
     background-color:#FF70A6;
     border-color: none;
     color:black;
     }
     
-    .btn1.orange.hover{
+    .btn.orange.shadow{
         background-color:#FF9770;
         border-color: none;
         color:black;
         }
 
-        .btn1.yellow.hover{
+        .btn.yellow.shadow{
             background-color:#FFD670;
             border-color: none;
             color:black;
@@ -498,13 +498,6 @@ background-color:#F4AFB4}
     display:inline-block;
 }
 
-.column {
-    display: inline-block;
-    padding: 1rem 3rem;
-    margin: 3px -5px;
-}
-
-
 
 #navbar {
   background:#EFF7F6 ;
@@ -681,10 +674,10 @@ background-color:#587B7F;
           position: relative;
           display: inline-block;
           outline: none;
-          width: 400px;
-          height: 30p;
+          width: 40%;
+          height: 5%;
           margin: 0 auto;
-          padding: 10px;
+          padding: 1%;
           color: #333;
         }
         ::-webkit-input-placeholder { color: #666;} 
@@ -694,20 +687,90 @@ background-color:#587B7F;
 
         .hero-image {
           background-image: linear-gradient(rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.39)), url("crane.jpg");
-          height:65%;
+          height:auto;
           width:auto;
           background-position:top;
           background-repeat: no-repeat;
-          background-size: contain;
-          position:flex;
+          background-size:cover;
+          position: relative;
         }
         
         .hero-text {
-          text-align:center middle;
+          text-align:center;
           font-size:2em;
-          position: flex;
-          top: 50%;
+          position:relative;
+          top:50%;
           color:#ffffff;
           text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
         }
         
+
+        
+.social-footer {
+  padding: 1rem;
+  background:#70D6FF;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.foot{
+  display: inline-flex;
+  padding:1rem;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+  display: inline-block;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 2rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+@media screen and (min-width: 320px) {
+  footer .column {
+    text-align: center; } }
+@media screen and (min-width: 640px) {
+  footer .column {
+    text-align: left; }
+  footer .container {
+    max-width: 100%; }
+  footer i {
+    font-size: 2.5rem; }
+    footer i.fa-facebook-f, footer i.fa-instagram {
+      margin-left: 30px; } }
+@media screen and (min-width: 960px) {
+  footer .container {
+    max-width: 70%; } }
+main {
+  flex: 1; }
+
+.container {
+  max-width: 70%;
+  margin: 0 auto; }
+
+.column {
+  padding: 1rem;
+  margin: 8px; 
+  text-align: center;
+}
+
+@media only screen and (min-width: 641px) {
+  .row {
+    display: flex; }
+
+  .column {
+    flex: 1; } }

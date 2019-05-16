@@ -21,11 +21,304 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="buttons.html">Buttons</a></li>
                 <li><a href="nav.html">Navigation</a></li>
-                <li><a href="header.html">Header</a></li>
-                  <li><a href="footer.html">Footer</a></li>
                 <li><a href="jumbotron.html">Jumbotron</a></li>
+                  <li><a href="header.html">Header</a></li>
+                <li><a href="footer.html">Footer</a></li>
               </ul>
             </nav>
+            <section class="mid-section">
+              <h2>Grid Elements</h2>
+              <h4>Container</h4>
+              <p class="des">The Container is one of the main building blocks of a website and are used to contain grids or grid items
+                such as coloumns and rows within. 
+              </p>
+              <code class="code-block">
+                  <span class ="tag">&lt;body&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"Container"</span>
+                  <span class ="tag">&gt;</span><br>
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;/body&gt;</span>
+              </code>
+            </section>
+            <section class="mid-section">
+              <h4>Row</h4>
+              <p class="des">
+                The row is next part of the grid system, this acts as a wrapper for the columns, there is also the grid-row
+                property that is used to specify a grid items size and location.</p>
+                <code class="code-block">
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"row"</span>
+                    <span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                </code>
+            </section>
+            <section class="mid-section">
+              <h4>Column</h4>
+              <p class="des">
+                 There are two different ways you can create a grid using coloumns, using multiple divs or the
+                 <span class ="tag">&lt;col&gt;</span>tag or Column-6 for example this lets you customise the width
+                 because using <span class ="tag">&lt;div&gt;</span> will create equal size grid layout. 
+              </p>
+              <code class="code-block">
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"row"</span>
+                  <span class ="tag">&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span><br>
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;/div&gt;</span><br>
+              </code>
+            </section>
+            <section class="mid-section">
+            <h3>FlexBox 12 Grid system</h3>
+            <p class="des">The flex box grid system is a responsive fluid system that is based of the flex property</p>
+            <div class="row 6">
+                <div class="column dream">12</div>
+            </div>
+            <div class="row 5">
+                <div class="column lightblue">6</div>
+                <div class="column lightblue">6</div>
+            </div>
+            <div class="row 4">
+                <div class="column yellow">4</div>
+                <div class="column yellow">4</div>
+                <div class="column yellow">4</div>
+            </div>
+            <div class="row 3">
+                <div class="column orange">3</div>
+                <div class="column orange">3</div>
+                <div class="column orange">3</div>
+                <div class="column orange">3</div>
+            </div>
+            <div class="row 2">
+                <div class="column pink">2</div>
+                <div class="column pink">2</div>
+                <div class="column pink">2</div>
+                <div class="column pink">2</div>
+                <div class="column pink">2</div>
+                <div class="column pink">2</div>
+            </div>
+            <div class="row 2">
+                <div class="column blue">1</div>
+                <div class="column blue">1</div>
+                <div class="column blue">1</div>
+                <div class="column blue">1</div>
+                <div class="column blue">1</div>
+                <div class="column blue">1</div>
+                <div class="column blue">1</div>
+                <div class="column blue">1</div>
+                <div class="column blue">1</div>
+                <div class="column blue">1</div>
+                <div class="column blue">1</div>
+                <div class="column blue">1</div>
+            </div>
+            </section>
+            <section class="left-section">
+                <h3>1 Grid Layout</h3>
+                <code class="code-block">
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"row"</span>
+                    <span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>12
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                </code>
+              </section>
+            <section class="right-section">
+                <h3>2 Grid Layout</h3>
+                <code class="code-block">
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"row"</span>
+                    <span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>6
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>6
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                </code>
+              </section>
+            <section class="left-section">
+                <h3>3 Grid Layout</h3>
+                <code class="code-block">
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"row"</span>
+                    <span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>4
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>4
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>4
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                </code>
+              </section>
+            <section class="right-section">
+              <h3>4 Grid Layout</h3>
+              <code class="code-block">
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"row"</span>
+                  <span class ="tag">&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>3
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>3
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>3
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>3
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;/div&gt;</span><br>
+              </code>
+            </section>
+            <section class="left-section">
+                <h3>6 Grid Layout</h3>
+                <code class="code-block">
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"row"</span>
+                    <span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>2
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>2
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>2
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>2
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>2
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"column"</span>
+                    <span class ="tag">&gt;</span>2
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                    <span class ="tag">&lt;/div&gt;</span><br>
+                </code>
+              </section>
+            <section class="right-section">
+              <h3>12 grid layout</h3>
+              <code class="code-block">
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"row"</span>
+                  <span class ="tag">&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;div</span>
+                  <span class = "attrib">class=</span>
+                  <span class = "value">"column"</span>
+                  <span class ="tag">&gt;</span>1
+                  <span class ="tag">&lt;/div&gt;</span><br>
+                  <span class ="tag">&lt;/div&gt;</span><br>
+              </code>
+            </section>
         </div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
         

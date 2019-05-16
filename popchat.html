@@ -1,0 +1,118 @@
+<DOCTYPE HTML!>
+        <html lang="en">
+            <head>
+                <title>Pastel Pattern Library</title>
+                <meta charset="utf-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+                <link href=<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+                <link rel="stylesheet" href="style.css">
+        
+            </head>
+            <body>
+                  <div id="pagewrap">
+                     
+            <header id="main">
+              <h1>The Pastel Pattern Library</h1>
+            </header>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="nav.html">Navigation</a></li>
+                <li><a href="jumbotron.html">Jumbotron</a></li>
+                <li><a href="header.html">Header</a></li>
+                <li><a href="footer.html">Footer</a></li>
+                <li><a href="grid.html">Grid Layout</a></li>
+              </ul>
+            </nav> 
+            <button class="open-button" onclick="openForm()"></button>
+
+            <div class="chat-popup" id="myForm">
+            <form action="outlook.com" class="form-container">
+            <h3>Chat</h3>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+            </div>
+
+            <section class="mid-section">
+            <h3>Pop Up Chat</h3>
+            <p class="des">
+            Pop-up chat boxes are becoming more popular on websites offering instant assistance from the websites owners, they offer 
+            real time responses between user and service provider. 
+            </p>
+            <code class="code-block">
+                    <span class ="tag">&lt;button</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"open-button"</span>
+                    <span class = "attrib">onclick=</span>
+                    <span class = "value">"openForm()"</span>
+                    <span class ="tag">&gt;</span>
+                    <span class ="tag">&lt;/button&gt;</span><br>
+                    <span class ="tag">&lt;div</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"chat-popup"</span>
+                    <span class = "attrib">id=</span>
+                    <span class = "value">"myForm"</span>
+                    <span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;form</span>
+                    <span class = "attrib">action class=</span>
+                    <span class = "value">"form-container"</span>
+                    <span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;h3&gt;</span>
+                    Chat<span class ="tag">&lt;/h3&gt;</span><br>
+                    <span class ="tag">&lt;label</span>
+                    <span class = "attrib">for=</span>
+                    <span class = "value">"msg"</span>
+                    <span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;b&gt;</span>
+                    Message<span class ="tag">&lt;/b&gt;</span><br>
+                    <span class ="tag">&lt;/label&gt;</span><br>
+                    <span class ="tag">&lt;textarea</span>
+                    <span class = "attrib">placeholder=</span>
+                    <span class = "value">"Type message.."</span>
+                    <span class = "attrib">name=</span>
+                    <span class = "value">"msg"</span>
+                    <span class = "attrib">required</span>
+                    <span class ="tag">&gt;</span>
+                    <span class ="tag">&lt;/textarea&gt;</span><br>
+                    <span class ="tag">&lt;button</span>
+                    <span class = "attrib">type=</span>
+                    <span class = "value">"submit"</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"btn"</span>
+                    <span class ="tag">&gt;</span>Send
+                    <span class ="tag">&lt;/button&gt;</span><br>
+                    <span class ="tag">&lt;button</span>
+                    <span class = "attrib">type=</span>
+                    <span class = "value">"button"</span>
+                    <span class = "attrib">class=</span>
+                    <span class = "value">"closeForm"</span>
+                    <span class = "attrib">onclick=</span>
+                    <span class = "value">"btn cancel"</span>
+                    <span class ="tag">&gt;</span>Close
+                    <span class ="tag">&lt;/button&gt;</span><br>
+                    <span class ="tag">&lt;/form&gt;</span><br>
+                    <span class ="tag">&lt;/div&gt;</span><br>
+
+            </code>
+            </section>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <script>
+        function openForm() {
+        document.getElementById("myForm").style.display = "block";
+            }
+
+        function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+    </body>
+</html>
+</DOCTYPE>

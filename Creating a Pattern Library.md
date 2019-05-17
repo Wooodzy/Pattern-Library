@@ -29,16 +29,16 @@ The project aim is to create a pastel pattern library that can be used to quickl
 
 ### Research
 
-Styleguides.io is a website that holds many different pattern library that are free for users to use and experiment with. The design libraries on the site range in the amount of content that is on them, one of the biggest library that is available to users, is a  pattern library by IMB. Carbon is IBM's free and open-source design and pattern library for digital products, the library is very consistent throughout and a range of different components, resources and guidelines that IBM follow themselves to create their brand. 
+Styleguides.io is a website that holds many different pattern library that are free for users to use and experiment with. The design libraries on the site range in the amount of content that is on them, one of the biggest library that is available to users, is a  pattern library by IMB. [Carbon](<https://www.carbondesignsystem.com/>) is IBM's free and open-source design and pattern library for digital products, the library is very consistent throughout and a range of different components, resources and guidelines that IBM follow themselves to create their brand. 
 ![](D:\Uni\Web Design for industry\Framework\IMB.png)
 
 Carbon also lists all the different variations of the element in different code along the top of the code box which gives the library a lot more utilization. it also lists different scenarios you can use the elements to help developers maintain consistency, the library also provides the JavaScript and extra modifiers to be able to customise the use of the elements. Other libraries such as Starbucks and Code for America have very different layouts compared to IBM.
 
-This is Code for America's pattern library, its a long list of elements all on one page, with drop down code example for each of the elements. 
+This is [Code For America](<http://codeforamerica.clearleft.com/>) pattern library, its a long list of elements all on one page, with drop down code example for each of the elements. 
 
 ![](D:\Uni\Web Design for industry\Framework\CFA.png)
 
-This is an example of Starbucks code example and element, they have a long list of bullet points that are hyperlinked to the code and the element but the library has not been updated since 2014. 
+This is an example of [Starbucks](<https://www.starbucks.com/static/reference/styleguide/>) code example and element, they have a long list of bullet points that are hyperlinked to the code and the element but the library has not been updated since 2014. 
 
 ![](D:\Uni\Web Design for industry\Framework\SB.PNG)
 
@@ -57,7 +57,7 @@ In an article by [Dave Redfern](<https://www.webdesignerdepot.com/2016/12/why-yo
   
 
 
-  Pattern libraries can also be created as developers design and develop websites for clients, this allows developers to easily revisit a clients website to create new features or reuse features with great ease having an already established library that the client is happy with. One downfall of pattern libraries are if developers become lazy and reuse the same library for each project then therefor becoming stagnant in design and lazy. 
+ Pattern libraries can also be created as developers design and develop websites for clients, this allows developers to easily revisit a clients website to create new features or reuse features with great ease having an already established library that the client is happy with. One downfall of pattern libraries are if developers become lazy and reuse the same library for each project then therefor becoming stagnant in design and lazy. 
 
 
 
@@ -79,7 +79,7 @@ There are many pattern library that make it easier to create a library, but thes
 
 I decided to create my own library instead of using another framework or tool, depending on the tool or program used to assist it could possibly constrain how users interact with my library and having complete control over the elements will give me more freedom when designing the components. I will mainly use HTML, CSS and JavaScript, to create the elements, style and animate them to suit the library consistently throughout. 
 
-I will take design inspirations from googles material design mixed with pastel colours to keep a subtle feel and try to create an organic environment for the elements to create a set of building blocks to build sleek websites. 
+I will take design inspirations from [Google's Material Design](<https://material.io/design/>) mixed with pastel colours to keep a subtle feel and try to create an organic environment for the elements to create a set of building blocks to build sleek websites. 
 
 ### Design Process Method.
 

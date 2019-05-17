@@ -29,11 +29,15 @@ to utilize when creating their own projects.
 * JavaScript
 ```
 
-### Extras to add.
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+### User Guide
+```
+* Download Pattern Library
+* Download JavaScript
 
+Link CSS file into <head> of index and other pages.
+Link JavaScript file into <script> of index and other pages.
 
+```
 #### Authors 
 ```
 Alex Woods

@@ -170,6 +170,11 @@ Next was an element that used JavaScript for some of its functionality. The chat
 With the bug fixed and the button sorted it looked as intended apart from the font face. 
  ![](D:\Uni\Web Design for industry\Framework\popuptest1.PNG)
 
+Next phase of testing was making sure the grid system worked correctly. 
+![](D:\Uni\Web Design for industry\Framework\gridtest.PNG)
+
+
+
 ### Why the Pop-up chat box
 
 The chat box was chosen due to the fact that more and more sites are deciding to use instant messaging to communicate with their clients over the websites, giving good customer service to get users to return to use their services again as they are reassured with the ability to a quick response time.  
